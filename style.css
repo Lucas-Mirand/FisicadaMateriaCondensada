@@ -1,0 +1,203 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+  text-align: justify;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.nav{
+  position: sticky;
+  z-index: 1000;
+}
+
+nav {
+  background-color: #34495e;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+#final{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#final:hover {
+  transform: scale(1.05);  /* Aumenta a imagem em 10% */
+}
+
+img {
+  height: auto;
+  border-radius: 10px;
+}
+#solido{
+  text-align: center;
+}
+#liquido{
+  text-align: center;
+}
+#gasoso{
+  text-align: center;
+}
+#plasma{
+  text-align: center;
+}
+#nano{
+  text-align: center;
+}
+#Supercondutores{
+  text-align: center;
+}
+.imagem_estados{
+  max-width: 400px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+summary{
+  font-weight: 900;
+  font-size: 20px;
+}
+.estados {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabela th, .tabela td {
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+  text-align: left;
+}
+
+.bio {
+  display: none;
+  margin-top: 10px;
+  background: #f1f1f1;
+  padding: 10px;
+  border-left: 4px solid #2980b9;
+}
+
+.curiosidades ul {
+  list-style-type: circle;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+button {
+  margin-top: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.galeria-autores {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajuste para garantir a responsividade */
+  gap: 30px;
+  margin-top: 20px;
+  justify-items: center; /* Garante que os itens fiquem centralizados nas células */
+}
+
+.autor img {
+  width: 150px;  /* Definindo o tamanho fixo das imagens */
+  height: 200px; /* Definindo a altura das imagens */
+  object-fit: cover; /* Para garantir que as imagens se ajustem bem no espaço */
+}
+
+.autor {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s, box-shadow 0.3s; /* Suaviza a transição da cor e sombra */
+}
+
+.autor:hover {
+  background-color: #f0f0f0;  /* Muda a cor de fundo quando o mouse passar sobre */
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); /* Aumenta a sombra para um efeito de destaque */
+}
+
+.autor p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+#inicio img {
+  width: 100%;  /* Ajusta a largura para 100% do contêiner, ou você pode definir uma largura específica */
+  transition: transform 0.3s ease-in-out;  /* Suaviza a transição de aumento */
+}
+
+#inicio img:hover {
+  transform: scale(1.05);  /* Aumenta a imagem em 10% */
+}
+
+
+nav a {
+  text-decoration: none;  /* Remove o sublinhado padrão */
+  color: #ffffff;  /* Cor inicial do texto */
+  padding: 10px 15px;  /* Um pouco de espaçamento para melhorar a área clicável */
+  font-size: 16px;  /* Ajuste do tamanho da fonte, se necessário */
+  transition: color 0.3s ease-in-out;  /* Transição suave de cor */
+}
+
+nav a:hover {
+  color: #a7daf1;  /* Cor que o texto vai mudar quando passar o mouse */
+}
+
+section a{
+  color: lightskyblue;
+  transition: color 0.3s ease-in-out;  /* Transição suave de cor */
+  font-weight:600;
+}
+section a:hover{
+  color: lightsteelblue;
+}
